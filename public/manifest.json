@@ -1,0 +1,54 @@
+{
+  "name": "han-Lexicon",
+  "short_name": "han-Lexicon",
+  "description": "A personal Korean–English dictionary and active learning PWA. Add words, chunks, collocations, idioms, and example sentences; study them offline with flashcards, exercises, and spaced repetition.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add a word",
+      "short_name": "Add",
+      "description": "Open the new word form",
+      "url": "/?action=add"
+    },
+    {
+      "name": "Search",
+      "short_name": "Search",
+      "description": "Search your dictionary",
+      "url": "/?tab=search"
+    }
+  ]
+}
